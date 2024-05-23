@@ -1,4 +1,4 @@
-# Project: Very Wide Band Amplifier
+# Testing and Verification of Digital Circuits
 
 Authors : Kyle G. Gayliyev <br>
 Date: 22- August - 2023<br>
