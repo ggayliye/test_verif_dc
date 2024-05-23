@@ -71,6 +71,19 @@ Copyright: ECE 6745, Kyle G. Gayliyev  - This work may not be copied for use in 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/34.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/35.jpg)
 
-		
+## Task 3 
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/1.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/2.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/3.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/4.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/5.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/6.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/7.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/8.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/9.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/10.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/11.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/12.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/13.jpg)
 					
 					
