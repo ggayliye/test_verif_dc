@@ -1,0 +1,118 @@
+// Kyle G Gayliyev 
+// Homework 6
+// Fall 2023
+
+// This is how to include a library
+// teachstd.lib is a bit of teaching standard bases
+LIB "teachstd.lib";
+
+// Problem 2
+// Z_5[x, y], LEX x>y
+// Where f1,f2 is elements of Z_5[x,y].
+
+ring R = 5, (x, y), lp;
+
+poly f1 = x^2+y^2+1;
+poly f2 = x^2*y + 2*x*y+ x;
+
+
+ideal J = f1, f2;
+
+// ideal of vanishing polynomials in Z_5 = F_5
+// Note: x^q - x = 0 in F_q. 
+
+ideal J5 = x^5 - x, y^5-y;
+
+poly h;
+
+// use the spoly() function from "teachstd.lib"
+h = spoly(f1, f2);
+printf("");
+//print h
+printf("Spoly of f1, f2:");
+h;
+printf("");
+
+// The reduce function performs polynomial division
+// reduce(poly h, ideal J): reduce poly h modulo the ideal J
+poly r;
+r = reduce(h, J);
+printf("Spoly of f1, f2 reduced modulo J:");
+r;
+printf("");
+
+// Sum of ideals J + J5 = f1, f2 of J and J5
+ideal G = J + J5;
+
+// This is how you print an ideal
+printf("Ideal G of J+J5 (in other words, J+J5=)");
+G;
+printf("");
+
+
+// Singular has an option to compute a reduced GB,
+// or a non-reduced (vanilla) GB. Use the option() command
+
+// This is how you compute a non-reduced GB
+printf("Non-reduced Groebner basis GB(J+J5):");
+option(noredSB); // noredSB = non-reduced Std bases
+option();
+groebner(G);
+printf("");
+
+//Answering section "c".
+// Leading monomials: G_LT
+//Leading monomials:
+
+ideal LM =leadmonom(x^5 - x),leadmonom(y^5-y),leadmonom(x^2+y^2+1),leadmonom(x^2*y + 2*x*y+ x);
+printf("Leading Monomials of groebner(G) for section c of hw6:");
+LM;
+printf("");
+
+//Standard Monomials, SM:
+
+ideal SM = 1,x,x^2,x^3,x^4,y,y^2,y^3,y^4,x*y,x*y^2;
+printf("Standard Monomials, SM, for section c of hw6:");
+SM;
+printf("");
+
+printf("Number of solutions, section c of hw6:");
+size(SM);
+printf("");
+
+
+//Answering section "d".
+// Leading monomials: G_LT
+
+//Leading monomials:
+
+ideal LM1 =leadmonom(x^2+y^2+1),leadmonom(x^2*y + 2*x*y+ x);
+printf("Leading Monomials of groebner(G) for section d :");
+LM1;
+printf("");
+
+//Standard Monomials, SM:
+
+ideal SM1 = 1,x,y,x*y,x*y^2;
+printf("Standard Monomials, SM, for section d :");
+SM1;
+printf("");
+
+printf("Number of solutions, section d:");
+size(SM1);
+printf("");
+
+
+// This is how you compute a Reduced GB
+printf("Reduced Groebner basis GB(J+J5):");
+option(redSB);
+option();
+groebner(G);
+printf("");
+
+
+
+
+printf("Reduced Groebner basis of only J, GB(J):");
+groebner(J);
+

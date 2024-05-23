@@ -1,0 +1,92 @@
+// Kyle G Gayliyev 
+// Homework 6
+// Fall 2023
+LIB "primdec.lib";
+
+// R = Q[x, y]
+ring r = 0, (x, y), lp;
+
+// This is how you compute a Reduced GB
+//ideal I = x^2*y^2+2*y^2, x^4-2*x^2+1, 1-y^2+x^2*y-y;
+//printf("Reduced Groebner of I:");
+//option(redSB);
+//option();
+//groebner(I);
+//printf("");
+
+ideal J = x*y^2+2*y^2, x^4-2*x^2+1; // ideal J is not radical
+
+poly f = x;
+// poly f in radical of J
+// but g is not in radical of J
+poly g = y - x^2 +1;
+
+// This is how you do radical membership
+ideal J1 = x*y^2+2*y^2, x^4-2*x^2+1, 1-y*f;
+J1 = groebner(J1);
+printf("");
+printf("GB of J1 = 1 iff f in radical(J):");
+J1; // GB(J1) should be {1} <=> f in radical(J)
+printf("");
+
+ideal J2 = x*y^2+2*y^2, x^4-2*x^2+1, 1-y*g;
+J2 = groebner(J2);
+printf("GB of J2 should not be 1 as g is not in radical of J");
+J2; // J2 should not be {1}
+printf("");
+
+// And this is how you could compute the radical of J
+// Should be <x, y>
+ideal J3 = radical(J);
+printf("Radical of J is( Should be <x, y>):");
+J3;
+printf("");
+
+
+
+// Now, apply this to Galois fields
+// We know that J_0 is radical, and so is J + J_0, but J may not be radical
+
+printf("Let us see what happens over GF(8)");
+ring fq = (2, X), (x, y), lp;
+minpoly = X^3 + X + 1;
+
+ideal J0 = x8 - x, y8 - y;
+
+ideal J = X*(x*y^2+2*y^2) + (X+1)*(x^4-2*x^2+1) -1;
+
+// J is a Groebner basis and so is J0
+
+
+// J is not radical
+ideal radJ = radical(J);
+printf("Groebner basis of Ideal J is:");
+groebner(J);
+printf("");
+
+printf("Radical of J is:");
+radJ;
+printf("");
+
+
+// J0 is radical
+ideal radJ0 = radical(J0);
+printf("Radical of J0 is J0 itself:");
+radJ0;
+printf("");
+
+// J + J0 is radical
+ideal JJ0 = J + J0;
+ideal radJJ0 = radical(JJ0);
+printf("J + J0 is radical");
+
+printf("The Groebner basis of Radical of J+J0 is:");
+groebner(radJJ0);
+printf("");
+
+printf("Which is the same thing as GB of J + J0");
+groebner(JJ0);
+printf("");
+
+
+

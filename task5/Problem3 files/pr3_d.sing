@@ -1,0 +1,32 @@
+// Kyle G Gayliyev 
+// Homework 6
+// Fall 2023
+LIB "primdec.lib";
+
+// R = Q[x, y]
+ring r = 0, (x, y), lp;
+
+ideal J = x*y^2+2*y^2, x^4-2*x^2+1; // ideal J is not radical
+
+
+
+// g is not in radical of J
+poly g = y - x^2 +1;
+printf("");
+
+// Determining m
+printf("If m=1,reduceGrob will be 0: ");
+reduce(g,groebner(J));
+printf("");
+
+printf("If m=2,reduceGrob will be 0: ");
+reduce(g^2,groebner(J));
+printf("");
+
+printf("If m=3,reduceGrob will be 0: ");
+reduce(g^3,groebner(J));
+printf("");
+
+
+
+
