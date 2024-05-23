@@ -23,6 +23,13 @@ Copyright: ECE 6745, Kyle G. Gayliyev  - This work may not be copied for use in 
 * Elimination Ideals and Design Abstraction
 * Reachability Analysis and Sequential Circuit Verification
 
+## This file consists of 5 Tasks:
+* [Task 1] (https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#task-1)
+* [Task 2] (https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#task-2)
+* [Task 3] (https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#task-3)
+* [Task 4] (https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#task-4)
+* [Task 5] (https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#task-5)
+
 ## Task 1 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/1.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/2.jpg)
