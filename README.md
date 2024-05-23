@@ -41,6 +41,7 @@ Copyright: ECE 6745, Kyle G. Gayliyev  - This work may not be copied for use in 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/8.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/9.jpg)
 
+[Go To The Top](https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#testing-and-verification-of-digital-circuits)
 ## Task 2 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/1.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/2.jpg)
@@ -78,6 +79,7 @@ Copyright: ECE 6745, Kyle G. Gayliyev  - This work may not be copied for use in 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/34.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/35.jpg)
 
+[Go To The Top](https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#testing-and-verification-of-digital-circuits)
 ## Task 3 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/1.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/2.jpg)
@@ -92,7 +94,8 @@ Copyright: ECE 6745, Kyle G. Gayliyev  - This work may not be copied for use in 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/11.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/12.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task3/13.jpg)
-					
+
+[Go To The Top](https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#testing-and-verification-of-digital-circuits)					
 ## Task 4 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task4/1.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task4/2.jpg)
@@ -121,6 +124,7 @@ Copyright: ECE 6745, Kyle G. Gayliyev  - This work may not be copied for use in 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task4/25.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task4/26.jpg)				
 
+[Go To The Top](https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#testing-and-verification-of-digital-circuits)
 ## Task 5 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task5/1.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task5/2.jpg)
@@ -137,3 +141,5 @@ Copyright: ECE 6745, Kyle G. Gayliyev  - This work may not be copied for use in 
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task5/13.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task5/14.jpg)
 ![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task5/15.jpg)	
+
+[Go To The Top](https://github.com/ggayliye/test_verif_dc?tab=readme-ov-file#testing-and-verification-of-digital-circuits)
