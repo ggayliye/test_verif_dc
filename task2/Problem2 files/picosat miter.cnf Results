@@ -1,0 +1,86 @@
+[u1303491@lab1-13 picosat-965]$ ./picosat -v miter.cnf
+c PicoSAT SAT Solver Version 965
+c Copyright (c) 2006 - 2014 Armin Biere JKU Linz
+c gcc -Wall -Wextra -DNDEBUG -O3
+c
+c using 2 as default phase
+c
+c parsing miter.cnf
+c parsed header 'p cnf 1391 5190'
+c initialized 1391 variables
+c found 5190 non trivial clauses
+c
+c random number generator seed 0
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+c s   0.0   0.0  1389   0.1  4176     0     0     0   0.0   0.4 
+c 
+c initial reduction limit 1000 clauses
+c 
+c +   0.0  46.4  1389  19.1  4176   100    91  1100   7.5   0.5 
+c R   0.0  46.4  1389  19.1  4176   101    92  1100   8.2   0.5 
+c +   0.0  58.7  1389  56.2  4176   221   204  1210  17.0   0.5 
+c +   0.0  63.6  1389  59.1  4176   367   346  1331  23.6   0.5 
+c N   0.0  63.7  1389  59.2  4176   401   379  1331  24.0   0.5 
+c +   0.0  68.7  1389  69.3  4176   543   518  1464  28.5   0.5 
+c +   0.0  72.4  1389  70.5  4176   755   725  1610  35.3   0.5 
+c +   0.0  73.7  1389  70.5  4176  1011   981  1771  45.6   0.6 
+c N   0.0  74.4  1389  70.5  4176  1204  1173  1771  43.7   0.6 
+c +   0.0  74.7  1389  70.5  4176  1320  1289  1948  40.7   0.6 
+c +   0.0  75.5  1389  70.5  4176  1693  1662  2142  44.5   0.7 
+c +   0.0  73.3  1389  70.5  4176  2144  2113  2356  37.7   0.8 
+c +   0.0  72.0  1389  76.6  4176  2689  1447  2591  40.7   0.7 
+c N   0.0  71.3  1389  76.6  4176  3208  1963  2591  39.8   0.7 
+c +   0.0  71.0  1389  76.6  4176  3348  2103  2850  42.4   0.8 
+c +   0.0  69.1  1389  78.9  4176  4145  1448  3135  23.6   0.6 
+c +   0.0  68.2  1389  90.2  4176  5109  2394  3448  28.1   0.8 
+c +   0.1  70.3  1389  90.3  4176  6275  1809  3792  35.3   0.7 
+c +   0.1  70.3  1389  90.5  4176  7685  3207  4171  35.1   0.9 
+c N   0.1  70.2  1389  90.5  4176  8020  3542  4171  34.8   1.0 
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+c +   0.1  69.5  1389  90.6  4176  9391  2797  4588  25.5   0.8 
+c +   0.1  68.6  1389  90.9  4176 11455  2520  5046  38.8   0.8 
+c +   0.1  66.5  1389  90.9  4176 13952  5010  5550  28.4   1.1 
+c +   0.2  63.2  1389  90.9  4176 16973  5245  6105  29.3   1.2 
+c R   0.2  60.4  1389  91.2  4176 19241  4418  6105  22.3   1.0 
+c +   0.2  60.3  1389  92.0  4176 20628  5799  6715  38.2   1.2 
+c +   0.2  58.7  1389  93.9  4176 25050  3408  7386  41.3   0.9 
+c s   0.3  56.4  1388  93.9  4172 30018  4597  7386  29.2   1.0 
+c N   0.3  56.3  1388  93.9  4172 30118  4697  7386  24.0   1.0 
+c +   0.3  55.9  1388  93.9  4172 30400  4979  8124  29.3   1.0 
+c N   0.3  55.9  1388  93.9  4172 30420  4999  8124  31.4   1.0 
+c N   0.3  55.4  1388  93.9  4172 31222  5800  8124  31.2   1.1 
+c N   0.3  53.8  1388  93.9  4172 33229  7800  8124  41.2   1.4 
+c 0   0.4  51.7  1181  94.0  4172 35178  5652  8124  24.0   1.1 
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+s UNSATISFIABLE
+c
+c 5 iterations
+c 9 restarts
+c 0 failed literals
+c 35178 conflicts
+c 58775 decisions
+c 210 fixed variables
+c 543853 learned literals
+c 22.9% deleted literals
+c 2252711 propagations
+c 12349050 visits
+c 94.0% variables used
+c 0.4 seconds in library
+c 6.3 megaprops/second
+c 34.7 megavisits/second
+c probing 0.0 seconds 1%
+c 2 simplifications
+c 11 reductions
+c 4.6 MB recycled
+c 1.5 MB maximally allocated
+c 0.4 seconds total run time
+[u1303491@lab1-13 picosat-965]$

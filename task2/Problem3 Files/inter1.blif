@@ -1,0 +1,7 @@
+# Benchmark "ci_B" written by ABC on Sun Nov  5 21:24:35 2023
+.model ci_B
+.inputs a_1 a_2 a_3 a_4
+.outputs f
+.names a_3 f
+0 1
+.end

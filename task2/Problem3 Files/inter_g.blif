@@ -1,0 +1,7 @@
+# Benchmark "spec.blif_spec.blif_miter" written by ABC on Sun Nov  5 04:21:10 2023
+.model spec.blif_spec.blif_miter
+.inputs a b c d
+.outputs miter
+.names a b miter
+00 0
+.end

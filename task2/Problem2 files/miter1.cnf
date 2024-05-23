@@ -1,0 +1,5 @@
+c Result of efficient AIG-to-CNF conversion using package CNF
+p cnf 209 2
+-209 0
+209 0
+

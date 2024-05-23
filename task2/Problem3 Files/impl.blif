@@ -1,0 +1,25 @@
+#author: Kyle G Gayliyev
+#date: Oct 20th, 2023
+#BLIF file is written for Homework 3, Problem3
+.model impl.blif
+.inputs a b c d        #if you need to concatinate the lines, use " \"
+.outputs u v w 
+.names a b f   #row wise, it works as AND gate (don't leave space), column wise it works as OR.
+1- 1	       #ends with 1. If you add 0 to the output var, you assign it 0. For Other vars mean negative
+-1 1	       # cofactor if 0.-dash means don't care"
+.names f u 
+1 1 
+.names c f g
+11 1
+.names a b e  #bug is introduced: e= a+b
+1- 1
+-1 1
+.names e g y
+1- 1
+-1 1
+.names y v 
+1 1 
+.names d y w
+1- 1
+-1 1
+.end

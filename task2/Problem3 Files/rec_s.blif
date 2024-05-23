@@ -1,0 +1,24 @@
+#author: Kyle G Gayliyev
+#date: Oct 20th, 2023
+#BLIF file is written for Homework 3, Problem3
+.model rec_s.blif
+.inputs a b c d        
+.outputs u v w 
+.names a b f   
+1- 1	       
+-1 1	       
+.names f u 
+1 1 
+.names c f g
+11 1
+.names a b c e #e=g'e=ab'c'
+100 1
+.names e g y   #y=eg'+g
+10 1
+-1 1
+.names y v 
+1 1 
+.names d y w
+1- 1
+-1 1
+.end

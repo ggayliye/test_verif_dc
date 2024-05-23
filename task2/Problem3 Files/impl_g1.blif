@@ -1,0 +1,25 @@
+#author: Kyle G Gayliyev
+#date: Oct 20th, 2023
+#BLIF file is written for Homework 3, Problem3
+.model spec.blif
+.inputs a b c d        
+.outputs u v w 
+.names a b f # f is the fanout net.   
+1- 1
+-1 1  	       
+.names f u 
+1 1 
+.names c f g #rectify at g
+-- 1
+.names a b e # bug here: e= a+b
+1- 1
+-1 1
+.names e g y
+1- 1
+-1 1
+.names y v 
+1 1 
+.names d y w
+1- 1
+-1 1
+.end

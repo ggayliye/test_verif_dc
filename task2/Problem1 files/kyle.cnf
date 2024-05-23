@@ -1,0 +1,53 @@
+c Problem1, section a and b.
+c -------------------------
+c author: Kyle G Gayliyev
+c date: Oct 20th, 2023
+c 
+c CNF file written for Homework 3
+c The meaning of the comment below: after p and cnf,
+c --------
+c the expressions indicate: nbvar nbclauses. 
+c --------
+c nbvar indicates the exact number of variables 
+c appearing in the file, and c nbclauses 
+c indicates the exact number of c clauses 
+c contained in the file. Then in the below line,
+c the clauses folow.
+c --------
+c Each clause is a sequence of distinct non-null numbers 
+c between -nbvar and nbvar 
+c --------
+c ending with 0 on the same line; 
+c ---------
+c it cannot contain the opposite literals i and -i simultaneously. 
+c --------
+c Positive numbers denote the corresponding variables.
+c Negative numbers denote the negations of the corresponding
+c variables.
+c --------
+c example:each row is OR,each column is AND. The first
+c row: (gate5)'+gate1 + gate2. "0" indicates end of a line.
+p cnf 11 22
+-5 1 2 0
+-1 5 0
+-2 5 0
+-7 5 0
+-7 3 0
+-5 -3 7 0
+-6 -2 0
+-6 1 0
+2 -1 6 0
+-8 7 6 0
+8 -7 0
+8 -6 0
+-11 8 4 0
+11 -8 0
+11 -4 0
+-5 9 0
+-9 5 0
+-8 10 0
+-10 8 0
+9 0
+10 0
+-11 0
+

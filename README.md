@@ -24,53 +24,52 @@ Copyright: ECE 6745, Kyle G. Gayliyev  - This work may not be copied for use in 
 * Reachability Analysis and Sequential Circuit Verification
 
 ## Task 1 
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/1.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/1.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/2.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/3.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/4.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/5.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/6.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/7.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/8.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task1/9.jpg)
 
-**Fig 1**. A Very Wideband Amplifier  
-
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/9.jpg)
-
-**Fig 2**. Outputs Setup. 					
-					
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/10.jpg)
-
-**Fig 3**. Results. 					
-
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/2.jpg)
-
-**Fig 4**. Regulator 
-
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/3.jpg)
-
-**Fig 5**. RF Amplifier 
-
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/4.jpg)
-
-**Fig 6**. Current Mirror. 
-
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/5.jpg)
-
-**Fig 7**. Amplifier Layout. 
-					
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/6.jpg)
-
-**Fig 8**. Current Mirror Layout. 				
-					
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/8.jpg)
-
-**Fig 9**. Global Design Parameters. 						
-					
-## Final Delivery 						
-					
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/finalDeliver/1.jpg)			
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/finalDeliver/2.jpg)	
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/finalDeliver/3.jpg)	
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/finalDeliver/4.jpg)	
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/finalDeliver/5.jpg)	
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/finalDeliver/6.jpg)	
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/finalDeliver/7.jpg)	
-![alt text](https://github.com/ggayliye/aicd/blob/main/CadencePics/finalDeliver/8.jpg)	
-
+## Task 2 
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/1.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/2.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/3.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/4.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/5.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/6.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/7.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/8.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/9.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/10.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/11.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/12.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/13.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/14.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/15.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/16.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/17.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/18.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/19.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/20.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/21.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/22.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/23.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/24.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/25.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/26.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/27.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/28.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/29.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/30.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/31.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/32.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/33.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/34.jpg)
+![alt text](https://github.com/ggayliye/test_verif_dc/blob/main/task2/35.jpg)
 
 		
 					
